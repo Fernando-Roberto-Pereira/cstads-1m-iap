@@ -8,7 +8,7 @@ int main()
     float r, v;
     printf("Raio:\n");
     scanf("%f", &r);
-    v = (4.0 * PI * pow(r, 3.0)) / 3.0;
+    v = (4.0 / 3.0) * PI * pow(r, 3.0);
     printf("Volume: %f\n", v);
     return 0;
 }
